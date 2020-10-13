@@ -1,5 +1,5 @@
 import os
-folderroot = '/Users/angus/Downloads/NOT_v2/'
+folderroot = '/Users/angus/Downloads/NOT_Pipeline_V2/'
 os.chdir(folderroot)
 import numpy as np
 from astropy.io import fits
@@ -122,7 +122,7 @@ iraf.scombine('@listascombine', 'temp_quick.fits')
 
 iraf.scopy('temp_quick.fits',target+'_quick.fits',w1='3800',w2='9000')
 
-iraf.wspectext('temp_quick.fits',target+'_spec.txt',header='no')
+iraf.wspectext(target+'_quick.fits',target+'_spec.txt',header='no')
 
 #mv final file in a dedicated folder
 shutil.copy(target+'_quick.fits','./output/.')
