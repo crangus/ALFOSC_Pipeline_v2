@@ -1,5 +1,5 @@
 import os
-folderroot = '/Users/angus/Downloads/NOT_Pipeline_V2/'
+folderroot = '~/NOT_Reductions/'
 os.chdir(folderroot)
 import numpy as np
 from astropy.io import fits
