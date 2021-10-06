@@ -1,6 +1,6 @@
 import os
-folderroot = '/Users/angus/Downloads/NOT_Pipeline_V4/'
-irafhome = '/Users/angus/Downloads/NOT_Pipeline_V4/cosmic_reject/'
+folderroot = '/Path/to/installation/NOT_Pipeline_v3/'
+irafhome = '/Path/to/installation/NOT_Pipeline_v3/cosmic_reject/'
 os.chdir(folderroot)
 import numpy as np
 from astropy.io import fits
