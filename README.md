@@ -1,8 +1,8 @@
 # ALFOSC Pipeline v2.0
 
-Update to Luca Izzo's quick data reduction code for ALFOSC spectra
+Quick data reduction code for ALFOSC spectra (currently set up for Gr4 grism data)
 
-Version 2 - now includes fitting an improved wavlength solution to the 2D spectra. 
+Version 3 - now includes fitting an improved wavlength solution to the 2D spectra and cosmic ray rejection.
 
 General description:
 
@@ -33,7 +33,7 @@ You can then activate this environment in any terminal with
 
 To run the code, copy the relevant science raw files (e.g. the 2D slit images named 'ALxxxxxfits') into the directory and run
 
-    python quick_code_update.py
+    python alfosc_quickred.py
 
 The will read the raw science frames, bias and flat field correct them before applying a 2D wavelength solution. When promted, 
 
