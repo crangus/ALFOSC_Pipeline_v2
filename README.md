@@ -1,4 +1,4 @@
-# ALFOSC Pipeline v2.0
+# ALFOSC Pipeline v3.0
 
 Quick data reduction code for ALFOSC spectra (currently set up for Gr4 grism data)
 
