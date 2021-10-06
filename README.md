@@ -29,8 +29,8 @@ NOTE: there is a bug with matplolib/pyraf which you might need to do the followi
     
 Before running the script you need to edit lines 2 and 3 in alfosc_quickred.py to with the path to your installation directory:
 
-    folderroot = '/Path/to/installation/NOT_Pipeline_V4/'
-    irafhome = '/Path/to/installation/NOT_Pipeline_V4/cosmic_reject/'
+    folderroot = '/Path/to/installation/NOT_Pipeline_v3/'
+    irafhome = '/Path/to/installation/NOT_Pipeline_v3/cosmic_reject/'
 
 You're now ready to reduce! You can then activate the conda environment in any terminal with
 
