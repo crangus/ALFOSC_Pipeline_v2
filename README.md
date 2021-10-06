@@ -26,12 +26,17 @@ NOTE: there is a bug with matplolib/pyraf which you might need to do the followi
 
     mkdir -p ~/.matplotlib
     echo "backend: TkAgg" > ~/.matplotlib/matplotlibrc
+    
+Before running the script you need to edit lines 2 and 3 in alfosc_quickred.py to with the path to your installation directory:
 
-You can then activate this environment in any terminal with
+    folderroot = '/Path/to/installation/NOT_Pipeline_V4/'
+    irafhome = '/Path/to/installation/NOT_Pipeline_V4/cosmic_reject/'
+
+You're now ready to reduce! You can then activate the conda environment in any terminal with
 
     source activate iraf27
 
-To run the code, copy the relevant science raw files (e.g. the 2D slit images named 'ALxxxxxfits') into the directory and run
+To run the code, copy the relevant science raw files (e.g. the 2D slit images named 'ALxxxxx.fits') into the directory and run
 
     python alfosc_quickred.py
 
